@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: rgoers
+Build-Jdk: 1.6.0_65
+Implementation-Title: Apache Log4j API
+Implementation-Vendor: Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 2.0-rc2
+Specification-Title: Apache Log4j API
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 2.0-rc2
+X-Compile-Source-JDK: 1.6
+X-Compile-Target-JDK: 1.6
+Bnd-LastModified: 1403393441541
+Bundle-Description: The Log4j API
+Bundle-DocURL: http://www.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Log4j API
+Bundle-SymbolicName: org.apache.logging.log4j.api
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.0.0.RC2-SNAPSHOT
+Export-Package: org.apache.logging.log4j;uses:="org.apache.logging.log
+ 4j.message,org.apache.logging.log4j.spi";version="2.0.0.RC2-SNAPSHOT"
+ ,org.apache.logging.log4j.message;version="2.0.0.RC2-SNAPSHOT",org.ap
+ ache.logging.log4j.simple;uses:="org.apache.logging.log4j,org.apache.
+ logging.log4j.message,org.apache.logging.log4j.spi,org.apache.logging
+ .log4j.util";version="2.0.0.RC2-SNAPSHOT",org.apache.logging.log4j.sp
+ i;uses:="org.apache.logging.log4j,org.apache.logging.log4j.message";v
+ ersion="2.0.0.RC2-SNAPSHOT",org.apache.logging.log4j.status;uses:="or
+ g.apache.logging.log4j,org.apache.logging.log4j.message,org.apache.lo
+ gging.log4j.spi";version="2.0.0.RC2-SNAPSHOT",org.apache.logging.log4
+ j.util;uses:="org.apache.logging.log4j.spi";version="2.0.0.RC2-SNAPSH
+ OT"
+Log4jReleaseCount: thirteenth
+Log4jReleaseVersion: 2.0-rc2
+Tool: Bnd-2.1.0.20130426-122213
+
